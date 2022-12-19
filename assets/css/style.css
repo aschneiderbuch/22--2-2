@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Rbuik;
+    src: url("../fonts/Rubik_Gemstones/RubikGemstones-Regular.ttf");
+}
+
+/* font-family
+
+    font-family: Rbuik, sans-serif;
+
+*/
+
+header{
+    margin: 20px 30px;
+}
+
+header nav ul a{
+    display: block;
+}
+
+header nav ul a::before{
+    content: " ⚙︎ ";
+}
+
+h1::first-letter{
+    text-transform: capitalize;
+    font-family: Rbuik, sans-serif;
+
+}
+
+.ersterBuchstabeGross{
+    text-transform: capitalize;
+}
+
